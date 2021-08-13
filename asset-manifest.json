@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/prot/static/css/main.7ef7e05e.chunk.css",
+    "main.js": "/prot/static/js/main.9ac2b939.chunk.js",
+    "main.js.map": "/prot/static/js/main.9ac2b939.chunk.js.map",
+    "runtime-main.js": "/prot/static/js/runtime-main.3ccf656d.js",
+    "runtime-main.js.map": "/prot/static/js/runtime-main.3ccf656d.js.map",
+    "static/css/2.6df514ed.chunk.css": "/prot/static/css/2.6df514ed.chunk.css",
+    "static/js/2.cc151388.chunk.js": "/prot/static/js/2.cc151388.chunk.js",
+    "static/js/2.cc151388.chunk.js.map": "/prot/static/js/2.cc151388.chunk.js.map",
+    "index.html": "/prot/index.html",
+    "static/css/2.6df514ed.chunk.css.map": "/prot/static/css/2.6df514ed.chunk.css.map",
+    "static/css/main.7ef7e05e.chunk.css.map": "/prot/static/css/main.7ef7e05e.chunk.css.map",
+    "static/js/2.cc151388.chunk.js.LICENSE.txt": "/prot/static/js/2.cc151388.chunk.js.LICENSE.txt",
+    "static/media/herosection.scss": "/prot/static/media/img-home.c034239e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3ccf656d.js",
+    "static/css/2.6df514ed.chunk.css",
+    "static/js/2.cc151388.chunk.js",
+    "static/css/main.7ef7e05e.chunk.css",
+    "static/js/main.9ac2b939.chunk.js"
+  ]
+}
