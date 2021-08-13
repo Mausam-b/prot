@@ -1,0 +1,30 @@
+@import "../globals.scss";
+
+.dropdown-menu {
+    width: 200px;
+    top: 60px;
+    list-style: none;
+    text-align: start;
+    position: absolute;
+
+    li{
+        background: $primaryColor;
+        cursor: pointer;
+
+        &:hover{
+            background: $secondaryColor;
+        }
+    }
+}
+  
+.dropdown-menu.clicked {
+    display: none;    
+}
+  
+.dropdown-link {
+    display: block;
+    height: 90%;
+    width: 90%;
+    color: $whiteColor;
+    padding: 1rem;
+}

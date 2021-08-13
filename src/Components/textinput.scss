@@ -1,0 +1,120 @@
+@import "../globals.scss";
+
+.input{
+    background-color: #f3f3f3;
+    height: 100vh;
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1{
+        font-size: 2.8rem;
+        color: #000;
+        letter-spacing: 1px;
+    }
+
+}
+
+form {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -0.8rem; 
+}
+
+textarea{
+    background-color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    color: navy;
+    font-size: 1.4rem;
+    margin-top: 1.1rem;
+    letter-spacing: 1px;
+    padding: 10px;
+    resize: none;
+    box-shadow: -3px 9px 35px -1px #40f;
+}
+
+button {
+    background-color: #16a085;
+    color: #fff;
+    border: none;
+    margin: 20px;
+    padding: 16px 10px;
+    width: 140px;
+    outline: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    letter-spacing: 1px;
+    position: relative;
+    transition-duration: 0.4s;
+    overflow: hidden;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px #193047;
+    text-transform: uppercase;
+
+    &:hover{
+        background: #fff;
+        box-shadow: 0 2px 10px 5px #1abc9c;
+        color: #000;
+    }
+    &:after{
+        content: '';
+        background: #1abc9c;
+        display: block;
+        position: absolute;
+        padding-top: 300%;
+        padding-left: 350%;
+        margin-left: -20px !important;
+        margin-top: -120%;
+        opacity: 0;
+        transition: all 0.8s;
+    }
+    &:active:after{
+        padding: 0;
+        margin: 0;
+        opacity: 1;
+        transition: 0s;
+    }
+    &:focus{
+        outline: 0;
+    }
+}
+
+.warning {
+    color: red;
+    height: 1em;
+    line-height: 0.8;
+}
+
+.counter-results {
+    margin-bottom: 20px;
+
+    .all_count {
+        display: inline;
+        padding: 4px;
+        font-size: 1.175rem;
+        cursor: pointer;
+    }
+}
+
+.table-responsive {
+    margin-top: 20px;
+
+    div {
+        margin: 5px;
+    }
+
+    table {
+        thead {
+            tr {
+                th {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

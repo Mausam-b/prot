@@ -1,0 +1,54 @@
+/*============= Global Setup ==============*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+::before,
+::after{
+  box-sizing: border-box;
+}
+
+/*=============== BASE =================*/
+
+html{
+    scroll-behavior: smooth;
+    overflow-y:scroll;
+	scrollbar-color: skyblue #242424;
+}
+
+a{
+    text-decoration: none;
+}
+  
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+h1,h2{
+    color: #000;
+}
+p{
+    font-size: 1.135rem;
+    color: #f0f0f0;
+    font-weight: 400;
+}
+
+.home,
+.services,
+.products,
+.contact{
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}  
+
